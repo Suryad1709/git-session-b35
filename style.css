@@ -1,0 +1,702 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(rgba(247, 203, 158, 0.712)50%,rgba(172, 98, 206, 0.699));
+}
+
+
+
+
+
+/* home page */
+header{
+    padding: 35px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 18, 44);
+    color:rgb(238, 238, 238);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+header .menubar{
+    display: none;
+}
+
+
+.heading nav ul li {
+    list-style-type: none;
+    display: inline;
+    letter-spacing: 2px;
+}
+
+
+.heading nav ul li a{
+    text-decoration: none;
+    color: rgb(240, 236, 236);
+    margin: 5PX;    
+}
+
+
+
+/* Hover section */
+
+.heading h1:hover{
+    color:rgb(161, 165, 155) ;
+}
+.heading nav ul li a:hover{
+    color: rgb(66, 170, 156);
+}
+
+
+
+
+
+/* Main section */
+
+.main{
+    padding-top: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /*    background-color: rgb(243, 247, 245); */
+    width: 100%;
+    height:  500px;
+    gap: 7rem;
+       
+ }
+
+ .main .main1{
+    background-color: rgba(242, 234, 250, 0.568);
+    border-radius: 20px;
+    padding: 30px;
+    color: #610404;
+    border: none;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.1);
+
+ }
+
+ .main .main1:hover{
+    background-color: #f55c5c;
+    color: rgb(241, 237, 237);
+    box-shadow: 3px 3px black;
+  
+ }
+
+ .main .main1 span{
+    color: rgb(245, 248, 59);
+    background-color: rgb(9, 63, 134);
+ }
+
+ .resume{
+    display: flex;
+    gap: 15px;
+ }
+
+ .resume .btn{
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;  
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    
+ }
+ .resume .btn:hover{
+
+    background-color: rgb(118, 118, 248);
+    color: aliceblue;
+
+ }
+ .resume .btn:hover{
+  
+ }
+
+
+  .main div img{
+    width: 250px;
+    border: 3px solid rgb(165, 7, 7);
+    border-radius: 50%;
+    cursor: pointer;
+
+ }
+ .main div img:hover{
+    box-shadow: 4px 4px 4px 4px black;
+    width: 270px;
+ }
+
+
+
+
+ /* ******************************************************/
+
+
+/* About Section */
+
+.about{
+    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /*    background-color: rgb(243, 247, 245); */
+    width: 100%;
+    height:  500px;
+    gap: 7rem;
+}
+
+.about .about-img img{
+    width: 250px;
+}
+
+.about .contant span{
+    color: rgb(243, 13, 13);
+}
+.about .contant{
+    text-align: center;
+    border: 2px solid rgb(241, 234, 234);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.1);
+
+
+}  
+.about .contant h2{
+    color: rgb(11, 15, 0);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* ********************************************************** */
+
+
+/* skills section */
+.heading1{
+
+    text-align: center;
+    padding-top: 30px;
+    padding: 10px;
+    background-color: #53435e;
+    margin: 50px;
+    color: rgb(245, 238, 238);
+    border: none;
+    text-decoration: underline;
+    border-radius: 30px;
+    box-shadow:2px 2px rgb(29, 1, 29);
+    
+} 
+
+.skill span{
+    color: rgb(172, 43, 43);
+    text-decoration: underline;
+    
+}
+.skill{
+    display: flex;
+    justify-content:center;
+    padding: 40px 50px;
+    text-align: center;
+    width: 100%;
+    height:  320px;
+    gap: 20%; 
+}
+
+.skill .front, .back{
+    text-align: center;
+    border: 2px solid rgb(241, 234, 234);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px rgb(0, 0, 0, 0.1);
+    color: #281f2e;
+    background: linear-gradient(rgb(216, 214, 181),rgb(211, 218, 228));
+    cursor: pointer;
+ 
+}
+.skill .front, .back:hover{
+    background-color: #610404;
+}
+
+
+
+
+
+
+/* **************************************************************** */
+
+
+/* project section */
+#projects h1{
+    text-align: center;
+    padding: 10px;
+    background-color: #53435e;
+    margin: 50px;
+    color: rgb(243, 239, 233);
+    text-decoration: underline;
+    border-radius: 30px;
+    box-shadow:2px 2px rgb(29, 1, 29);
+   
+}
+#projects{
+    margin-left: 40px;
+    
+}
+#projects .container{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 40px;
+    margin-left: 10px;
+    gap: 10px;
+  
+}
+#projects .container .project{
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(247, 240, 240);
+    box-shadow: 0 20px 30px rgb(0, 0, 0, 0.1);
+
+
+}
+#projects .container .project h3{
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+#projects .container div img{
+
+  width: 250px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* ******************************************************************** /
+
+/* contact form */
+
+.main3{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+
+
+.main3 .contact{
+
+   width: 300px;
+    margin: 40px;
+     margin-left: 60px;
+    padding: 20px;
+   
+    background: hsla(187, 95%, 25%, 0.089);
+    background: url(/ASSIGNMENT-1/pexels-designecologist-1779487.jpg);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px ;
+}
+
+.main3 .contact h1{
+    text-align: center;
+    color: #ededf1;
+    padding-bottom: 7px;
+    text-decoration: underline;
+}
+
+form input,form textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+form button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(239, 239, 245);
+    background-color: blueviolet;
+    box-shadow:2px 2px rgb(29, 1, 29);
+}
+form button:hover{
+    color: blueviolet;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.pic img{
+width: 500px;
+margin: 50px;
+margin-top: 80px;
+border-radius: 30px;
+
+
+    
+}
+
+
+
+/* ************************************************************************* */
+
+/* footer section */
+.footer .add{
+    color: rgb(246, 240, 240);
+    padding-left: 20px;
+    background-color:rgb(135, 35, 65);
+}
+.footer .foot{
+    background-color: rgb(135, 35, 65);
+    color: aliceblue;
+    text-align: center;
+}
+
+/* replay section */
+
+.div{
+    
+    background: linear-gradient(rgb(107, 47, 47) , rgb(216, 17, 17));
+    text-align: center;
+    color: rgb(231, 226, 220);
+    width: 50%;
+    height: 160px;
+  padding: 60px;
+  margin-left: 350px;
+margin-top: 220px;
+border-radius: 30px;
+
+ 
+}
+
+/* *****************************************************************************/
+/* laptop 1024  */
+
+
+@media (max-width: 1024px){
+
+    .main{
+        margin-left:  20px ;
+    }
+
+    .main .img1{
+        margin-right: 40px;
+    }
+
+    
+}
+
+
+/* Tablet Screen */
+
+
+@media (max-width: 768px){
+       header {
+        display: block;
+        font-size: medium;
+       }
+   /*     .heading nav ul{
+         
+        width: 100%;
+        height: auto;
+        top: 60px;
+        left: 0;
+        transition: all 0.5s;
+
+       } */
+       .heading nav ul li{
+        display: inline;
+        line-height: 30px;
+        text-align: center;
+        margin: 50px 0;
+       }
+
+       
+/* 
+       header .menubar{
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 35px;
+        font-weight: bolder;
+        font-size: 30px;
+        cursor: pointer;
+        
+       } */
+       .heading nav ul li a:hover{
+            background: none;
+       }
+
+       /* main section */
+
+       .main{
+        display: block;
+        margin: auto;
+        width: 80%;
+        font-size: medium;
+
+       }
+       .main .img1{
+        padding-top: 20px;
+        margin-left: 40%;
+        
+
+       }
+       .main div img{
+        width: 150px;
+         }
+
+
+         /* contact form */
+
+         .main3 .contact{
+            width: 250px;
+            font-size: medium;
+         }
+        
+         .pic img{
+            width: 300px;
+            padding-top: 25%; 
+            
+        }
+
+        .div{
+    
+            
+            text-align: center;
+        
+            width: 30%;
+            height: 260px;
+          padding: 50px;
+          margin-left: 280px;
+        margin-top: 180px;
+        border-radius: 30px;
+        
+         
+        }
+
+}
+
+
+
+
+
+/* mobile responce */
+
+@media (max-width: 425px){
+     header h1{
+        font-size: 25px;
+     }
+    .heading nav ul li{
+        display: inline;
+        line-height: 20px;
+        font-size:10px;
+       }
+       .heading nav ul{
+       
+        margin-left: 0px;
+        margin-top: 10px;
+       }  
+
+
+       .main{
+        display: block;
+        margin: auto;
+        width: 60%;
+        font-size: small;
+
+       }
+       .main .img1{
+        padding-top: 10px;
+        margin-left: 20%;
+    
+        
+
+       }
+       .main div img{
+        width: 120px;
+
+         }
+
+         .footer .add{
+            font-size: small;
+         }
+         .footer .foot{
+            font-size: small;
+         }
+
+            
+         .resume{
+            display: inline;
+         }
+        
+         .resume .btn{
+            padding: 5px 10px;
+            font-weight: bold;
+            border-radius: 10px;  
+            border: none;
+            cursor: pointer;
+            transition: 1s;
+                        
+         }
+         .resume .btn1{
+            margin-top: 5px;
+            margin-left: 8px;`
+         }
+
+
+         /* about section */
+
+         .about{
+            padding: 40px 50px;
+            display: inline;
+        }
+        
+        .about .about-img img{
+            width: 150px;
+            margin-left: 25%;
+            
+        }
+        .about .contant{
+            font-size: small;
+            padding: 20px;
+            margin: 30px;
+        
+        
+        }  
+
+
+
+        /* skills section */
+
+
+ .heading1{
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 10px;
+   font-size: 25px;
+    
+
+  
+    
+} 
+    
+
+.skill{
+    
+    display: inline;
+    justify-content:center;
+    font-size: small;
+    margin: 30px;
+    line-height: 25px;
+   
+ 
+}
+
+.skill .front, .back{
+    text-align: center;
+    padding: 10px;
+    margin: 10px 30px;
+  
+ 
+}
+
+
+
+/* project section */
+#projects h1{
+    font-size: 25px;
+    padding: 10px;
+    margin: 30px 10px;
+}
+#projects{
+   margin: 5px 20px;
+}
+#projects .container{
+    display:inline;
+}
+#projects .container .project{
+    font-size: medium;
+    padding: 30px 20px;
+}
+#projects .container div img{
+  width: 230px;
+
+}
+
+
+/* contact form */
+
+.main3{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+
+
+.main3 .contact{
+
+   width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.main3 .contact h1{
+    font-size: 23px;
+    padding-bottom: 10px;
+    
+}
+
+form input,form textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 6px;
+}
+form button{
+    margin-left: 10px;
+}
+.pic img{
+display: none;
+}
+
+
+
+
+
+.reply{
+    height: 50vh;
+    margin-bottom: 0px;
+}
+.div{
+
+    padding: 50px 150px;
+    margin: auto;
+    margin-top: 20%;
+    padding-left: 60px;
+}
+
+.div h2{
+    font-size: medium;
+    
+}
+
+
+
+
+}
+          /* FINISHED */
